@@ -1,3 +1,4 @@
-# ELS - Enterprise Linux/EuroLinux Sources - libassuan 
+# ELS - Enterprise Linux/EuroLinux Sources - libassuan
+ 
 ## Usage:
-  Checkout branch or tag.
+  Checkout branch or tag. Use `make sources` to recreate  SOURCE0 archive.
