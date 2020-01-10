@@ -1,7 +1,7 @@
 Name:    libassuan
 Summary: GnuPG IPC library
 Version: 2.1.0
-Release: 1%{?dist}
+Release: 3%{?dist}
 
 # The library is LGPLv2+, the documentation GPLv3+
 License: LGPLv2+ and GPLv3+
@@ -89,6 +89,12 @@ fi
 
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.1.0-3
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.1.0-2
+- Mass rebuild 2013-12-27
+
 * Wed May 15 2013 Tomáš Mráz <tmraz@redhat.com> 2.1.0-1
 - new upstream release
 
@@ -101,7 +107,7 @@ fi
 * Thu Jul 19 2012 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.0.3-3
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_18_Mass_Rebuild
 
-* Thu Apr 18 2012 Tomáš Mráz <tmraz@redhat.com> 2.0.3-2
+* Thu Apr 19 2012 Tomáš Mráz <tmraz@redhat.com> 2.0.3-2
 - add missing requires of base package
 
 * Wed Apr 18 2012 Tomáš Mráz <tmraz@redhat.com> 2.0.3-1
